@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  mariadb:
+    ports:
+      - '3306:3306'
+  #    volumes:
+  #      - /path/to/mariadb/data/on/host:/var/lib/mysql
+
+  traefik:
+    ports:
+      - '80:80'
